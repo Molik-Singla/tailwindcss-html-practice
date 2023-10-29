@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero_bg{
+    background: rgb(229, 229, 229);
+        background: linear-gradient(47deg, rgba(229, 229, 229, 0.6559873949579832) 0%, rgba(235, 0, 255, 0.02) 100%);
+}
+
+.my_button{
+    @apply p-2 px-6 mt-4 md:px-9 rounded-md shadow bg-blue-600 text-white font-semibold hover:bg-blue-500 transition-all duration-200
+}
+
+.max_section_width{
+    @apply max-w-7xl
+}
+
+.fix_padding{
+    @apply p-4 md:p-6
+}
+
+.about_card{
+    @apply flex flex-col gap-1 w-full max-w-xs shadow-[0px_2px_9px_-9px_black] bg-white/10 rounded-md p-4 py-6 h-auto
+}
+
+.sub_heading_for_section{
+    @apply font-bold text-3xl lg:text-4xl lg:w-[90%] lg:leading-[46px] text-primary
+}
